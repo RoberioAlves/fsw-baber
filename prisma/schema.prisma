@@ -21,7 +21,7 @@ model Barbershop {
   name       String
   address    String
   Phones     String[]
-  descrption String
+  description String
   imagrUrl   String
   createAt   DateTime            @default(now())
   updatedAt  DateTime            @updatedAt
@@ -31,7 +31,7 @@ model Barbershop {
 model BarbershopService {
   id           String     @id @default(uuid())
   name         String
-  descrption   String
+  description   String
   imagrUrl     String
   price        Decimal    @db.Decimal(10, 2)
   barbershopId String
