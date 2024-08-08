@@ -1,1 +1,1 @@
-npx husky init
+npx lint-staged
