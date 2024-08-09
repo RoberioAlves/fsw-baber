@@ -1,10 +1,11 @@
-"use client";
+"use client"
 
-import Image from "next/image";
-import { Button } from "./_components/ui/button";
+import Header from "./_components/ui/hearder"
 
 export default function Home() {
   return (
-    <Button>acessar</Button>
-  );
+    <div>
+      <Header />
+    </div>
+  )
 }
